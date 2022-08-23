@@ -14,25 +14,25 @@
 .container-items__title a {
     padding-top: 2vmin;
 }
-.container-items__products { 
+.container-products { 
     display: flex;
     width: 90%;
     height: 300px;
     margin: 50px auto;
 }
-.container-items__products article {
+.container-products article {
     height: 45vh;
     max-width: 230px;
     margin: 0 7px;
     padding: 20px 15px;
 }
-.container-items__products article p {
+.container-products article p {
     margin-top: 20px;
 }
-.container-items__products article b {
+.container-products article b {
     margin-top: 20px;
 }
-.container-items__products article a {
+.container-products article a {
     width: 100%;
     height: 40px;
     margin-top: 20px;
