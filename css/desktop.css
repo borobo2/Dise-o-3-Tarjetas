@@ -1,0 +1,17 @@
+.container-items__products {
+    display: flex;
+    justify-content: center;
+}
+
+.container-items__products {
+    margin-top: 60px;
+}
+
+.container-items__products article b {
+    margin-top: 30px;
+}
+.container-items__products article a {
+    height: 50px;
+    margin-top: 55px;
+    padding-top: 17px;
+}

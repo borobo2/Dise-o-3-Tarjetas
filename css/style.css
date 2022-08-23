@@ -1,0 +1,114 @@
+/* 
+1: Posisionamient
+2: Modelo de Caja
+3: Tipografía
+4: Efectos Visuales
+5: Otros
+*/
+   
+/* VARIABLES */
+
+:root {
+    --clean-color: #E3E3FB;
+    --dark-color: #6363CE;
+}
+
+/* GLOBALES */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 62.5%;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body {
+    background-color: var(--clean-color);
+}
+
+/* CÓDIGO */
+
+main {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.container-stick {
+    width: 60%;
+    height: 100vh;
+    background-color: var(--dark-color);
+}
+
+.container-items {
+    position: absolute;
+    align-self: center;
+    width: 80%;
+    height: 95%;
+    border-radius: 10px;
+    background-color: #fff;
+}
+.container-items__title {
+    width: 100%;
+    padding-top: 15px;
+    text-align: center;
+}
+.container-items__title h1 {
+    font-size: 2.0rem;
+}
+.container-items__title a {
+    display: block;
+    font-size: 1.4rem;
+    margin-top: 7px;
+    color: var(--dark-color);
+}
+
+.container-items__products {
+    width: 100%;
+    height: auto;
+}
+.container-items__products article {
+    width: 90%;
+    height: 135px;
+    margin: 10px auto;
+    padding: 10px;
+    border: 2px solid var(--clean-color);
+    border-radius: 5px;
+}
+.container-items__products article h2 {
+    font-size: 2.0rem;
+}
+.container-items__products article p {
+    margin-bottom: 5px;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+.container-items__products article b {
+    display: inline-block;
+    margin-top: 5px;
+    font-size: 3.0rem;
+}
+.container-items__products article a{
+    display: block;
+    width: 65%;
+    max-width: 170px;
+    height: 25px;
+    margin: 5px auto;
+    padding-top: 5px;
+    font-size: 1.2rem;
+    font-weight: 500;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    color: #fff;
+    background-color: var(--dark-color);
+}
+.container-items__products article a:hover {
+    color: var(--dark-color);
+    background-color: var(--clean-color);
+}

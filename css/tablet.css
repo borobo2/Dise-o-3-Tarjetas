@@ -1,0 +1,41 @@
+.container-items {
+    max-width: 850px;
+    height: 85%;
+}
+
+.container-stick {
+    width: 50%;
+    max-width: 600px;
+}
+
+.container-items__title {
+    padding-top: 5vmax;
+}
+.container-items__title a {
+    padding-top: 2vmin;
+}
+.container-items__products { 
+    display: flex;
+    width: 90%;
+    height: 300px;
+    margin: 50px auto;
+}
+.container-items__products article {
+    height: 45vh;
+    max-width: 230px;
+    margin: 0 7px;
+    padding: 20px 15px;
+}
+.container-items__products article p {
+    margin-top: 20px;
+}
+.container-items__products article b {
+    margin-top: 20px;
+}
+.container-items__products article a {
+    width: 100%;
+    height: 40px;
+    margin-top: 20px;
+    padding-top: 13px;
+
+}
