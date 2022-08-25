@@ -74,6 +74,7 @@ main {
 }
 .container-products article {
     width: 90%;
+    max-width: 320px;
     height: 135px;
     margin: 10px auto;
     padding: 10px;
